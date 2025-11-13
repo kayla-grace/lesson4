@@ -2,6 +2,9 @@ name: workflow overview
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+     - main
 
 jobs:
   a_simple_job:
