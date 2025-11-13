@@ -11,7 +11,7 @@ jobs:
       - name: name of my step
         id: stepId
         run: echo "this is the first step from the first job"
-      -name: step with another shell
+      - name: step with another shell
         id: shellStep
         shell: python
         run: print("this step is using the python shell:)
